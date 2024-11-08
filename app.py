@@ -87,6 +87,7 @@ def provide_random_example():
         "Here's a lambda function example: add = lambda x, y: x + y",
         "Here's a string formatting example: name = 'World'; print(f'Hello {name}!')",
         "Here's a try/except example: try:\n    result = 10/0\nexcept ZeroDivisionError:\n    print('Cannot divide by zero')"
+        "Here's a doubling example: result = x * 2"
     ]
     return random.choice(examples)
 
